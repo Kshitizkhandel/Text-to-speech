@@ -16,5 +16,4 @@ Build the Docker image using the provided `Dockerfile`.
 ```bash  
 docker build -t <image_name> .  
 
-```bash  
 sudo docker run -v $(pwd)/output:/app/output -v $(pwd)/ref.wav:/app/ref.wav <image_name> --text "Hello, this is a test message" --reference_voice /app/ref.wav--output "/app/output/test.wav" 
