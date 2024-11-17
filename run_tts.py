@@ -3,7 +3,7 @@ import os
 from TTS.api import TTS
 
 def main():
-    parser = argparse.ArgumentParser(description="Run Coqui TTS in Docker.")
+    parser = argparse.ArgumentParser(description="Run TTS in Docker.")
     parser.add_argument("--text", type=str, required=True, help="Text to synthesize.")
     parser.add_argument("--reference_voice", type=str, help="Path to reference speaker WAV for voice cloning (optional).")
     parser.add_argument("--output", type=str, required=True, help="Path to save the output WAV file.")
