@@ -1,6 +1,6 @@
-# Coqui-TTS with Docker  
+# TTS with Docker  
 
-This guide explains how to use Coqui-TTS with Docker to synthesize text-to-speech audio.  
+This guide explains how to use TTS model tacotron2-DDC with Docker to synthesize text-to-speech audio.  
 
 ## Prerequisites  
 
