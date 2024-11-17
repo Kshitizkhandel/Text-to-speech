@@ -9,7 +9,7 @@ This guide explains how to use Coqui-TTS with Docker to synthesize text-to-speec
 
 ## Usage  
 
-### Step 1: Build the Docker Image  
+### Build and Run the Docker Image  
 
 Build the Docker image using the provided `Dockerfile`.  
 
